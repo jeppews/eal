@@ -6,6 +6,3 @@
     <link rel="stylesheet" href="/css/frontpage-content.css" media="screen">
   </head>
   <body>
-    
-  </body>
-</html>
