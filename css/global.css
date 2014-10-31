@@ -1,0 +1,30 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: "Roboto Condensed", Sans-Serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #707070; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  line-height: 1.5em;
+  font-weight: 600; }
+
+/*# sourceMappingURL=global.css.map */
