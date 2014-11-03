@@ -1,8 +1,53 @@
 .module
 	+span-columns(6)
-	
+	position: relative
+
+	&:before
+		content: ""
+		display: block
+		+position(absolute, 0 0 null 0)
+		height: 23px
+		background: #e5e5e5 //$grey
+
 	em
 		font-size: 30px
 		color: #e5e5e5 //$grey
 		font-style: normal
 		background: #ffffff
+		font-weight: 500
+		text-transform: uppercase
+		background: #ffffff
+		position: relative
+		z-index: 2
+		padding-right: 6px
+
+	article
+		margin-top: 20px
+
+		h1
+			margin-top: 0
+			margin-bottom: 0
+
+		a
+			display: block
+			margin-top: 28px
+
+	&.news
+		h1
+			float: left
+			margin-right: 13px
+
+		span
+			display: inline-block
+			color: $type-light
+			margin-top: 2px
+			
+			&:last-child
+				+clearfix
+
+	&.events
+		img
+			float: left
+			display: block
+			margin-right: 13px
+

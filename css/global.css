@@ -40,6 +40,11 @@ a {
     display: table;
     clear: both; }
 
+.read-more {
+  font-weight: 400;
+  color: #0b7678;
+  text-decoration: underline; }
+
 footer {
   max-width: 1170px;
   margin-left: auto;
@@ -87,7 +92,8 @@ footer {
 .content-boxes {
   max-width: 1170px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 60px; }
   .content-boxes:after {
     content: "";
     display: table;
@@ -105,6 +111,7 @@ footer {
     .content-boxes .content-box img {
       max-width: 100%;
       height: auto;
+      display: block;
       -webkit-transition: all 0.15s ease-out 0s;
       -moz-transition: all 0.15s ease-out 0s;
       transition: all 0.15s ease-out 0s; }
@@ -156,13 +163,52 @@ footer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  position: relative; }
   .module:last-child {
     margin-right: 0; }
+  .module:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 23px;
+    background: #e5e5e5; }
   .module em {
     font-size: 30px;
     color: #e5e5e5;
     font-style: normal;
-    background: #ffffff; }
+    background: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+    padding-right: 6px; }
+  .module article {
+    margin-top: 20px; }
+    .module article h1 {
+      margin-top: 0;
+      margin-bottom: 0; }
+    .module article a {
+      display: block;
+      margin-top: 28px; }
+  .module.news h1 {
+    float: left;
+    margin-right: 13px; }
+  .module.news span {
+    display: inline-block;
+    color: #c0c0c0;
+    margin-top: 2px; }
+    .module.news span:last-child:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .module.events img {
+    float: left;
+    display: block;
+    margin-right: 13px; }
 
 /*# sourceMappingURL=global.css.map */
