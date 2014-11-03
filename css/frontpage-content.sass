@@ -1,0 +1,51 @@
+.content-boxes
+	+outer-container()
+
+	.content-box
+		+span-columns(4)
+		position: relative
+		height: 380px
+		overflow: hidden
+
+		img
+			max-width: 100%
+			height: auto
+			+transition()
+
+		h1
+			+position(absolute, 0 0 null 0)
+			font-family: 'ADAM.CG PRO'
+			color: #fff
+			text-shadow: 1px 1px 3px rgba(0,0,0,0.15)
+			font-size: 40px
+			line-height: 1em
+			+transition()
+		
+		.hover
+			background: rgba(104,169,190,0.8)
+			+position(absolute, 306px 0 null 0)
+			color: #fff
+			padding: 30px
+			height: 380px
+			+transition()
+
+			em
+				display: block
+				margin-bottom: 30px
+				font-style: normal
+
+			ul
+				margin: 0
+				padding: 0
+				list-style: none
+
+		&:hover
+			.hover
+				//top: 0
+
+			h1
+				//top: -100px
+
+			img
+				//+transform(scale(1.1,1.1))
+				+filter(blur(3px))
