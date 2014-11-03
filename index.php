@@ -1,11 +1,4 @@
-<html>
-
-  <head>
-    <title>eal.dk - Erhvervsakademi Lillebælt</title>
-  </head>
-
-  <body>
-  
-  </body>
-
-</html>
+<?php include 'header.php'; ?>
+<?php include 'content-boxes.php'; ?>
+<?php include 'modules.php'; ?>
+<?php include 'footer.php'; ?>
