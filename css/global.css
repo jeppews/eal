@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Neat 1.7.0
  * http://neat.bourbon.io
  * Copyright 2012-2014 thoughtbot, inc.
@@ -26,5 +27,49 @@ h1, h2, h3, h4, h5, h6 {
   color: #333333;
   line-height: 1.5em;
   font-weight: 600; }
+
+footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+  footer .kontakt {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .kontakt:last-child {
+      margin-right: 0; }
+  footer .kommende-studerende {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .kommende-studerende:last-child {
+      margin-right: 0; }
+  footer .nuv├ªrende-studerende {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .nuv├ªrende-studerende:last-child {
+      margin-right: 0; }
+  footer .virksomheder {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .virksomheder:last-child {
+      margin-right: 0; }
+  footer .internationalisering {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .internationalisering:last-child {
+      margin-right: 0; }
 
 /*# sourceMappingURL=global.css.map */
